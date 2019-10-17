@@ -1,0 +1,24 @@
+{
+  "name": "phaser-test",
+  "version": "1.0.0",
+  "description": "A small project to test Phaser 3 game framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupindr/phaser-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupindr/phaser-test/issues"
+  },
+  "homepage": "https://github.com/rupindr/phaser-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
