@@ -7,6 +7,8 @@ const app = express();
 
 const port = 4000;
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
